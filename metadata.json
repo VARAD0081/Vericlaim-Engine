@@ -1,0 +1,6 @@
+{
+  "name": "The VeriClaim Engine",
+  "description": "Minimalist regulatory and empirical greenwashing audit engine cross-verifying sustainability claims against vague buzzwords, statutory disclosures (SEBI BRSR Principle 6, EU Green Claims Directive, US FTC Green Guides), and public watchdog records.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

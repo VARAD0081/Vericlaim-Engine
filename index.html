@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The VeriClaim Engine — Greenwashing &amp; Statutory Claim Audit</title>
+    <meta
+      name="description"
+      content="Minimalist regulatory and empirical greenwashing audit engine cross-verifying sustainability claims against vague buzzwords, statutory disclosures (SEBI BRSR Principle 6, EU Green Claims Directive, US FTC Green Guides), and public watchdog records."
+    />
+    <meta property="og:title" content="The VeriClaim Engine — Greenwashing &amp; Statutory Claim Audit" />
+    <meta
+      property="og:description"
+      content="Educational decision-support engine analyzing environmental claims across Category A buzzwords, Category B metrics, statutory filings, and public watchdog records."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="/assets/aistudio/vericlaim-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      try {
+        if (localStorage.getItem("vericlaim-theme") === "dark") {
+          document.documentElement.classList.add("dark");
+        }
+      } catch (_) {}
+    </script>
+  </head>
+  <body class="bg-white text-neutral-950 dark:bg-neutral-950 dark:text-neutral-100 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
